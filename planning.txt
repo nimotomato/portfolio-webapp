@@ -1,7 +1,0 @@
-Maybe cool black baground
-
-Header with name etc: Hi I'm Martin. I love code.
-
-Then three preview boxes which grow when hovered over. When clicked, the view splits in two; site and github. Each new view is a link.
-Also a navbar somewhere, leading to person bio, the projects as a list, and a resumé.
-These things can also be found by scrolling down. When not active, items are blurred. When active, they sharpen into focus. 
