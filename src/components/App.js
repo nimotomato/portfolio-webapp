@@ -1,18 +1,25 @@
-import './App.css';
+import '../css/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import Curriculumvitae from './Curriculumvitae';
 import Bio from './Bio';
 import Navigation from './Navigation';
 import Title from './Title';
 import Projects from './Projects';
+
+
+import projectList from '../data/projects';
+import Contactinfo from './Contactinfo';
+
+
 import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import projectList from './data/projects';
-import Contactinfo from './Contactinfo';
 
 function App() {
   const [projects, setProjects] = useState(projectList);
+
 
   // Destructure useInview for referencing the sections
   const { ref: projRef, inView: projInView, projEntry } = useInView();
@@ -45,5 +52,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

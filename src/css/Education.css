@@ -1,0 +1,23 @@
+.edu-header{
+    text-align: right;
+}
+
+.edu-container {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+  
+.edu-company {
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+  
+.edu-programme {
+    font-size: 18px;
+}
+  
+.edu-period {
+    font-size: 12px;
+    font-style: italic;
+}

@@ -1,12 +1,15 @@
-import { useState } from 'react';
+import '../css/Project.css';
+
 
 const Projects = (props) => {
     const projects = props.projects;
+
 
     const handleClick = (url) => {
         window.open(url);
     }
  
+
     return (
         <div className="projects-container">
             {projects.map((proj) => (
@@ -27,4 +30,5 @@ const Projects = (props) => {
       );
 }
  
+
 export default Projects;

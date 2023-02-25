@@ -1,9 +1,16 @@
-import contactInfo from "./data/contactInfo";
+import '../css/Contactinfo.css';
+
+
+import contactInfo from "../data/contactInfo";
+
 
 import { BsLinkedin } from "react-icons/bs";
 
+
 const Contactinfo = () => {
     const info = contactInfo;
+
+    
     return ( 
         <div className="contact-info-container" id="contact-anchor">
             <p className="email-info">{ info.email }</p>
@@ -12,4 +19,5 @@ const Contactinfo = () => {
      );
 }
  
+
 export default Contactinfo;

@@ -1,0 +1,16 @@
+.section-cv {
+    min-height: 100vh;
+    margin: auto;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: antiquewhite;
+    width: 50vw;
+    margin-bottom: 25px;
+}

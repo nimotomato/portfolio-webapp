@@ -1,3 +1,8 @@
+import '../css/Curriculumvitae.css';
+import '../css/Jobs.css';
+import '../css/Education.css';
+
+
 import Education from './Education';
 import Jobs from './Jobs';
 

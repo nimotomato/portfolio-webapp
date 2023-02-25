@@ -1,7 +1,9 @@
-import jobList from "./data/jobData";
+import jobList from "../data/jobData";
+
 
 const Jobs = () => {
     const jobData = jobList;
+
 
     return ( 
         <div className="jobs-container">
@@ -24,4 +26,5 @@ const Jobs = () => {
      );
 }
  
+
 export default Jobs;

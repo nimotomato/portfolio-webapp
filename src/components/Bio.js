@@ -1,5 +1,9 @@
-import selfie from './img/selfie.jpg';
-import biotext from './data/biotext';
+import '../css/Bio.css';
+
+
+import selfie from '../img/selfie.jpg';
+import biotext from '../data/biotext';
+
 
 const Bio = () => {
 
@@ -18,5 +22,6 @@ const Bio = () => {
         </div>
       );
 }
+
  
 export default Bio;

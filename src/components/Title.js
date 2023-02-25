@@ -1,3 +1,6 @@
+import '../css/Title.css';
+
+
 const Title = () => {
     return (
         <div className="title">
@@ -7,4 +10,5 @@ const Title = () => {
       );
 }
  
+
 export default Title;

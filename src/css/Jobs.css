@@ -1,0 +1,23 @@
+.job-header{
+    text-align: left;   
+}
+  
+.jobs-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+  
+.job-company {
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+  
+.job-title {
+    font-size: 18px;
+}
+  
+.job-period {
+    font-size: 12px;
+    font-style: italic;
+}

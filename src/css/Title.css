@@ -1,0 +1,14 @@
+.section-title {
+    min-height: 100vh;
+    margin: auto;
+}
+
+.title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    padding-top: 100px;
+}

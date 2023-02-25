@@ -1,0 +1,9 @@
+.contact-info-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.contact-info-container p {
+    color: antiquewhite;
+    margin-right: 20px;
+}

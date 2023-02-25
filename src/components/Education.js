@@ -1,7 +1,9 @@
-import eduList from "./data/eduData";
+import eduList from "../data/eduData";
+
 
 const Education = () => {
     const eduData = eduList;
+
 
     return ( 
         <div className="edu-container">
@@ -24,4 +26,5 @@ const Education = () => {
      );
 }
  
+
 export default Education;
