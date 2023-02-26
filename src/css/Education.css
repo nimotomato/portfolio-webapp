@@ -24,6 +24,61 @@
 }
 
 @media only screen and (min-width: 410px) {
+    .edu-container {
+       max-width: 14em;
+    }
+}
 
+@media only screen and (min-width: 550px) {
+    .edu-container {
+        max-width: 16em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .edu-container {
+        max-width: 18em;
+    }
+
+    .edu-header{
+        font-size: 1.8em;
+    }
+
+    .edu-company {
+        font-size: 1.2em;
+    }
+
+    .edu-programme {
+        font-size: 0.9em;
+    }
+      
+    .edu-period {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .edu-container {
+        max-width: none;
+    }
+
+    .edu-header{
+        font-size: 2em;
+    }
+
+    .edu-company {
+        font-size: 1.3em;
+    }
+
+    .edu-programme {
+        font-size: 1.1em;
+    }
+      
+    .edu-period {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
     /* lgtm */
 }

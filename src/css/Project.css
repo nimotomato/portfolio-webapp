@@ -63,6 +63,36 @@
 }
 
 @media only screen and (min-width: 550px) {
-/* lgtm */
+    .projects-container {
+        min-height: 60%;
+    }
 
+    .projects-wrapper {
+        flex: 1;
+        flex-direction: row;  
+    }
+
+    .project img {
+        width: 9em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .project img {
+        width: 11em;
+    }
+
+    .projects-wrapper {
+        padding-left: 2em;
+        padding-right: 2em;
+        max-width: 60em;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    /* lgtm */
+}
+
+@media only screen and (min-width: 1280px) {
+    /* lgtm */
 }

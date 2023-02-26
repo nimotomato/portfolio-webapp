@@ -9,7 +9,7 @@ const Bio = () => {
 
 
     return (
-        <div className="bio-container">
+        <div className="bio-wrapper">
             <img className="portrait" src={selfie} alt="Picture of me"></img>
                 <p className="bio-text-1">
                     {biotext[0]} 
