@@ -23,3 +23,8 @@
     font-size: 0.7em;
     font-style: italic;
 }
+
+@media only screen and (min-width: 410px) {
+
+    /* lgtm */
+}

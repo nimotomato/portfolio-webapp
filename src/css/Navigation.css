@@ -9,6 +9,7 @@ nav{
     align-items: center;
     height: 2.7em;
     flex: 1;
+    min-width: 100%;
 }
   
 .me-auto a{
@@ -29,6 +30,7 @@ nav{
 
 @media only screen and (min-width: 410px) {
 
+    /* lgtm */
 }
 
 @media only screen and (min-width: 550px) {

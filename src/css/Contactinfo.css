@@ -2,8 +2,14 @@
     display: flex;
     justify-content: center;
 }
-  
-.contact-info-container p {
+
+.email-info {
     color: antiquewhite;
     margin-right: 20px;
+    font-size: 0.9em;
+}
+
+@media only screen and (min-width: 410px) {
+
+    /* lgtm */
 }

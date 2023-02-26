@@ -23,10 +23,10 @@
     border-left: 1px solid;
     border-bottom: 1px solid;
     border-color: rgb(74, 122, 141);
-    border-width: 0.15em;
+    border-width: 0.2em;
     border-radius: 10px;
-    padding-left: 0.8em;
-    padding-bottom: 0.8em;
+    padding-left: 0.6em;
+    padding-bottom: 0.6em;
     padding-top: 0.3em;
     padding-right: 0.3em;
 }
@@ -40,5 +40,42 @@
     grid-column: span 2;
     text-align: justify;
     font-family: 'Montserrat Alternates', sans-serif;
-    margin-top: 0.8em;
 }
+
+@media only screen and (min-width: 410px) {
+    .bio-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3em;
+        font-size: 0.9em;
+    }
+
+    .portrait {
+        width: 25em;
+        height: auto;
+        transform: translateX(-10%);
+        /* image border */
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+        border-color: rgb(74, 122, 141);
+        border-width: 0.2em;
+        border-radius: 10px;
+    }
+
+    .bio-text-1 {
+        width: 21em;
+        margin-bottom: 0;
+    }
+    
+    .bio-text-2 {
+        width: 21em;
+        margin-top: 0;
+    }
+        
+}
+
+@media only screen and (min-width: 550px) {
+    
+    }

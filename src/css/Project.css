@@ -1,16 +1,26 @@
+.section-title{
+    height: 100vh;
+}
+
 .projects-container {
     display: flex;
     justify-content: center;
+    min-height: 70%;
 }
   
 .projects-wrapper {
-    flex: 1;
-    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 }
  
-.project {
-    margin: 1.5em;
-}
+.projects-wrapper > * {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+  }
 
 .project img {
     background-color: slategrey;
@@ -45,4 +55,14 @@
   
 .project:nth-child(3){
     transition-delay: 400ms;
+}
+
+@media only screen and (min-width: 410px) {
+/* lgtm */
+    
+}
+
+@media only screen and (min-width: 550px) {
+/* lgtm */
+
 }
