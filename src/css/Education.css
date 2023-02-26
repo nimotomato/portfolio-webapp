@@ -1,5 +1,6 @@
 .edu-header{
     text-align: right;
+    font-size: 1.5em;
 }
 
 .edu-container {
@@ -9,15 +10,15 @@
 }
   
 .edu-company {
-    font-size: 22px;
+    font-size: 1em;
     text-decoration-line: underline;
 }
   
 .edu-programme {
-    font-size: 18px;
+    font-size: 0.9em;
 }
   
 .edu-period {
-    font-size: 12px;
+    font-size: 0.7em;
     font-style: italic;
 }

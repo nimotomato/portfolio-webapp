@@ -1,27 +1,28 @@
-.projects-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-}
-  
 .projects-container {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
   
+.projects-wrapper {
+    flex: 1;
+    align-items: stretch;
+}
+ 
+.project {
+    margin: 1.5em;
+}
+
 .project img {
     background-color: slategrey;
-    margin: 50px;
-    margin-bottom: 0px;
     box-shadow: 0px 0px 18px lightblue;
     border-radius: 10px;
-    width: 200px;
+    width: 7em;
     transition: width 0.5s;
     transition-timing-function: ease-out;
-    border-radius: 10px;
 }
   
+/* On click seems buggy on mobile */
+
 .projects-wrapper img:hover{
     width: 250px;
 }
@@ -31,8 +32,10 @@
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 12px;
 }
+
+/* Change order of nth child when horizontal */
   
-.project:nth-child(3){
+.project:nth-child(1){
     transition-delay: 0ms;
 }
   
@@ -40,6 +43,6 @@
     transition-delay: 200ms;
 }
   
-.project:nth-child(1){
+.project:nth-child(3){
     transition-delay: 400ms;
 }

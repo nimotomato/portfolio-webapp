@@ -11,7 +11,7 @@ const jobList = [{
     id: 2
 },
 {
-    companyName: "Region Skåne, psykiatrimottagning",
+    companyName: "Region Skåne",
     title: "Psychologist",
     period: "June 2020 - January 2021",
     id: 3
