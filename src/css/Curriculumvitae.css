@@ -1,16 +1,44 @@
 .section-cv {
     min-height: 100vh;
     margin: auto;
-    padding-top: 200px;
+    padding-top: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .cv-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     color: antiquewhite;
-    width: 50vw;
-    margin-bottom: 25px;
+    margin-bottom: 1em;
+}
+
+.cv-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: antiquewhite;
+    margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 410px) {
+    /* lgtm */
+}
+
+@media only screen and (min-width: 550px) {
+    /* lgtm */
+}
+
+@media only screen and (min-width: 800px) {
+    /* lgtm */
+}
+
+@media only screen and (min-width: 1025px) {
+    .cv-wrapper {
+        width: 48em;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    /* lgtm */
 }

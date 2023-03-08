@@ -1,7 +1,8 @@
 .job-header{
     text-align: left;   
+    font-size: 1.5em;
 }
-  
+
 .jobs-container {
     display: flex;
     flex-direction: column;
@@ -9,15 +10,57 @@
 }
   
 .job-company {
-    font-size: 22px;
+    font-size: 1em;
     text-decoration-line: underline;
 }
   
 .job-title {
-    font-size: 18px;
+    font-size: 0.9em;
 }
   
 .job-period {
-    font-size: 12px;
+    font-size: 0.7em;
     font-style: italic;
+}
+
+@media only screen and (min-width: 410px) {
+    .jobs-container {
+        max-width: 12em;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .jobs-container {
+        max-width: 18em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    /* lgtm */
+}
+
+@media only screen and (min-width: 1025px) {
+    .job-container {
+        max-width: none;
+    }
+
+    .job-header{
+        font-size: 2em;
+    }
+
+    .job-company {
+        font-size: 1.3em;
+    }
+      
+    .job-title {
+        font-size: 1.1em;
+    }
+      
+    .job-period {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    /* lgtm */
 }

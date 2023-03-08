@@ -34,7 +34,7 @@ function App() {
         <div className="content"> 
           <Title />
         </div>
-        <div className={`projects-wrapper ${projInView ? "show" : "hidden"}`}  ref={projRef}>
+        <div className={`projects-container ${projInView ? "show" : "hidden"}`}  ref={projRef}>
           <Projects projects={projects}/>
         </div>
       </section>

@@ -11,7 +11,7 @@ const Projects = (props) => {
  
 
     return (
-        <div className="projects-container">
+        <div className="projects-wrapper">
             {projects.map((proj) => (
                 <div className="project" key={proj.id}>
                     <img 
@@ -19,7 +19,7 @@ const Projects = (props) => {
                     onMouseLeave={e => e.currentTarget.src = proj.img}
                     onMouseEnter={e => e.currentTarget.src = proj.altImg}
                     src={proj.img} 
-                    alt="Your mom"/>
+                    alt="alt"/>
                     <p className="project-text">
                         {proj.text}
                     </p>

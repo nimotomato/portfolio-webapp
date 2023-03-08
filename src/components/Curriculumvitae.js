@@ -9,7 +9,7 @@ import Jobs from './Jobs';
 
 const Curriculumvitae = () => {
     return (
-        <div className="cv-container">
+        <div className="cv-wrapper">
             <h1 className="job-header">Work life experience:</h1>
             <h1 className="edu-header">Formal education:</h1>
             <Jobs />         

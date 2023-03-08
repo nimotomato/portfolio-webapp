@@ -9,17 +9,15 @@ const Bio = () => {
 
 
     return (
-        <div className="bio-container">
+        <div className="bio-wrapper">
             <img className="portrait" src={selfie} alt="Picture of me"></img>
-            <div className="text-container">
-                <p className="bio-text">
+                <p className="bio-text-1">
                     {biotext[0]} 
                 </p>
-                <p className="bio-text">
+                <p className="bio-text-2">
                     {biotext[1]} 
                 </p>
             </div>
-        </div>
       );
 }
 
