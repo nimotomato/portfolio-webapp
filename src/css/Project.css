@@ -31,12 +31,6 @@
     transition-timing-function: ease-out;
 }
   
-/* On click seems buggy on mobile */
-
-.projects-wrapper img:hover{
-    width: 250px;
-}
-  
 .project p {
     color: antiquewhite;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -57,8 +51,9 @@
     transition-delay: 400ms;
 }
 
+
 @media only screen and (min-width: 410px) {
-/* lgtm */
+    /* lgtm */
     
 }
 
@@ -86,6 +81,13 @@
         padding-left: 2em;
         padding-right: 2em;
         max-width: 60em;
+    }
+
+    
+    @media (hover: hover) {
+        .projects-wrapper img:hover{
+            width: 250px;
+        }
     }
 }
 

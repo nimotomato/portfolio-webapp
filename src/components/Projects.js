@@ -19,7 +19,7 @@ const Projects = (props) => {
                     onMouseLeave={e => e.currentTarget.src = proj.img}
                     onMouseEnter={e => e.currentTarget.src = proj.altImg}
                     src={proj.img} 
-                    alt="Your mom"/>
+                    alt="alt"/>
                     <p className="project-text">
                         {proj.text}
                     </p>
