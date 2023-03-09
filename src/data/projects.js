@@ -1,7 +1,7 @@
 import github from '../img/github.jpg';
 import IITH from '../img/IITH.jpg';
-import moon2 from '../img/moon2.jpg';
-import moon3 from '../img/moon3.jpg';
+import pong from '../img/pong.jpg';
+import moon1 from '../img/moon1.jpg';
 
 const projectList = [
     { 
@@ -14,18 +14,18 @@ const projectList = [
     }, 
     { 
       url: "https://github.com/nimotomato/DiscoverLongly",
-      img: moon2,
+      img: moon1,
       text: "Spotify bot",
       altImg: github, 
       altUrl: "https://3.bp.blogspot.com/-FjvVnhKfJdU/Ts-Alf3tTRI/AAAAAAAAAcQ/yN8m79Tu4t8/s1600/love_heart1.jpg",
       id: 2
     }, 
     { 
-      url: "https://github.com/nimotomato/SudokuTime2022",
-      img: moon3,
-      text: "Sudoku solver",
+      url: "https://pong-ten-plum.vercel.app/",
+      img: pong,
+      text: "Pong single player",
       altImg: github, 
-      altUrl: "https://3.bp.blogspot.com/-FjvVnhKfJdU/Ts-Alf3tTRI/AAAAAAAAAcQ/yN8m79Tu4t8/s1600/love_heart1.jpg",
+      altUrl: "https://github.com/nimotomato/pong-portfolio",
       id: 3
     }  
   ];
