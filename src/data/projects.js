@@ -1,7 +1,7 @@
 import github from '../img/github.jpg';
 import IITH from '../img/IITH.jpg';
 import pong from '../img/pong.jpg';
-import moon1 from '../img/moon1.jpg';
+import spotifyBot from '../img/spotifyBot.jpg';
 
 const projectList = [
     { 
@@ -13,11 +13,11 @@ const projectList = [
       id: 1
     }, 
     { 
-      url: "https://github.com/nimotomato/DiscoverLongly",
-      img: moon1,
+      url: "https://open.spotify.com/playlist/2iz1IxBJVzcmnOrPDxQfYj?si=2eef6e14a3304d56",
+      img: spotifyBot,
       text: "Spotify bot",
       altImg: github, 
-      altUrl: "https://3.bp.blogspot.com/-FjvVnhKfJdU/Ts-Alf3tTRI/AAAAAAAAAcQ/yN8m79Tu4t8/s1600/love_heart1.jpg",
+      altUrl: "https://github.com/nimotomato/DiscoverLongly",
       id: 2
     }, 
     { 
