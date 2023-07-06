@@ -27,7 +27,7 @@ const eduList = [
     schoolName: "S:t Petri Läroverk (gymnasium)",
     programName: "Social Sciences, graduated top of class",
     period: "August 2009 - June 2012",
-    id: 5,
+    id: 6,
   },
 ];
 
