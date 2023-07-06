@@ -5,12 +5,17 @@
 .projects-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 70%;
+    width: 50em;
+    margin-top: -5em;
 }
   
 .projects-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
  
 .projects-wrapper > * {
@@ -19,7 +24,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;  
+    height: 14em;
   }
+
+.project-splitter {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .project img {
     background-color: slategrey;
@@ -28,6 +41,7 @@
     width: 7em;
     transition: width 0.5s;
     transition-timing-function: ease-out;
+    padding: 0.1em;
 }
   
 .project p {
@@ -87,7 +101,7 @@
     
     @media (hover: hover) {
         .projects-wrapper img:hover{
-            width: 250px;
+            width: 220px;
         }
     }
 }
