@@ -1,7 +1,5 @@
 import github from "../img/github.jpg";
 import IITH from "../img/IITH.jpg";
-import pong from "../img/pong.jpg";
-import githubpong from "../img/githubpong.jpg";
 import stroop from "../img/stroop.jpg";
 
 const projectList = [
@@ -21,14 +19,7 @@ const projectList = [
     altUrl: "https://github.com/nimotomato/stroop",
     id: 2,
   },
-  // {
-  //   url: "https://pong-ten-plum.vercel.app/",
-  //   img: pong,
-  //   text: "Pong single player",
-  //   altImg: githubpong,
-  //   altUrl: "https://github.com/nimotomato/pong-portfolio",
-  //   id: 3,
-  // },
+
 ];
 
 export default projectList;
