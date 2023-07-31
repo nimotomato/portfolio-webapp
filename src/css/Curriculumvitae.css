@@ -21,17 +21,7 @@
     margin-bottom: 1em;
 }
 
-@media only screen and (min-width: 410px) {
-    /* lgtm */
-}
 
-@media only screen and (min-width: 550px) {
-    /* lgtm */
-}
-
-@media only screen and (min-width: 800px) {
-    /* lgtm */
-}
 
 @media only screen and (min-width: 1025px) {
     .cv-wrapper {

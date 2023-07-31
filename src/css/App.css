@@ -6,7 +6,6 @@ body {
 }
 
 .App {
-  height: 100%;
   text-align: center;
   background-image: url("../img/waves.svg");
   background-repeat: no-repeat;
@@ -36,7 +35,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 800px) {
   .App{
     background-size: cover;
   }

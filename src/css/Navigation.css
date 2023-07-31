@@ -9,7 +9,6 @@ nav{
     align-items: center;
     height: 2.7em;
     flex: 1;
-    min-width: 100%;
 }
   
 .me-auto a{
@@ -39,5 +38,4 @@ nav{
     .container{
         max-width: 38em;
     }
-    
 }

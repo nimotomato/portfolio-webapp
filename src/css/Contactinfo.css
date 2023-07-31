@@ -8,23 +8,3 @@
     margin-right: 20px;
     font-size: 0.9em;
 }
-
-@media only screen and (min-width: 410px) {
-    /* lgtm */
-}
-
-@media only screen and (min-width: 550px) {
-    /* lgtm */
-}
-
-@media only screen and (min-width: 800px) {
-    /* lgtm */
-}
-
-@media only screen and (min-width: 1025px) {
-    /* lgtm */
-}
-
-@media only screen and (min-width: 1280px) {
-    /* lgtm */
-}
