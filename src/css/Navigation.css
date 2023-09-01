@@ -9,7 +9,6 @@ nav{
     align-items: center;
     height: 2.7em;
     flex: 1;
-    min-width: 100%;
 }
   
 .me-auto a{
@@ -28,13 +27,10 @@ nav{
 }
 
 
-@media only screen and (min-width: 410px) {
-    /* lgtm */
-}
-
 @media only screen and (min-width: 550px) {
     .me-auto {
         font-size: 1.1em;
+        height: 3em;
     }
     .me-auto a{
         flex: 1;
@@ -42,16 +38,4 @@ nav{
     .container{
         max-width: 38em;
     }
-}
-
-@media only screen and (min-width: 800px) {
-    /* lgtm */
-}
-
-@media only screen and (min-width: 1025px) {
-    /* lgtm */
-}
-
-@media only screen and (min-width: 1280px) {
-    /* lgtm */
 }

@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+.project{
+    margin: 1em;
+}
+
 .projects-container {
     display: flex;
     justify-content: center;
@@ -39,9 +43,11 @@
     box-shadow: 0px 0px 18px lightblue;
     border-radius: 16px;
     width: 7em;
+    height: auto;
     transition: width 0.5s;
     transition-timing-function: ease-out;
     padding: 0.1em;
+    
 }
   
 .project p {
@@ -67,14 +73,10 @@
 }
 
 
-@media only screen and (min-width: 410px) {
-    /* lgtm */
-    
-}
 
 @media only screen and (min-width: 550px) {
     .projects-container {
-        min-height: 60%;
+        min-height: 50%;
     }
 
     .projects-wrapper {
@@ -98,18 +100,14 @@
         max-width: 60em;
     }
 
+    .project{
+        margin: 5em;
+    }
+
     
     @media (hover: hover) {
         .projects-wrapper img:hover{
             width: 220px;
         }
     }
-}
-
-@media only screen and (min-width: 1025px) {
-    /* lgtm */
-}
-
-@media only screen and (min-width: 1280px) {
-    /* lgtm */
 }
