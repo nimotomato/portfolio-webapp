@@ -23,7 +23,7 @@ const projectList = [
   {
     url: "https://dnd-map-tool.vercel.app/",
     img: dnd,
-    text: "Map (under construction)",
+    text: "DND battle map",
     altImg: github,
     altUrl: "https://github.com/nimotomato/dnd-map-tool",
     id: 3,
