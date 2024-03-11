@@ -5,7 +5,7 @@ const biotext = [
   [
     "I've worked as a clinical psychologist for almost six years. \
 I started out working mostly with therapy, but the last couple of years I've only been doing neuropsychological assessments. \
-Last summer, I started coding and I've been hooked since. Currently I'm aiming for a Bachelor's degree in computer science. \
+But, I have a passion for coding. A couple of years ago, I decided to become a software developer. Currently I'm aiming for a Bachelor's degree in computer science. \
 I hope to combine programming with my previous expertise.",
   ],
 ];
